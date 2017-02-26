@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="ResourceBase">
+  <ThingDef>
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <selectable>true</selectable>
