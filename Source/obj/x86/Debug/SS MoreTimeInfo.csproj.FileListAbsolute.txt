@@ -1,0 +1,28 @@
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\bin\Debug\MoreTimeInfo.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\bin\Debug\MoreTimeInfo.pdb
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\bin\Debug\Assembly-CSharp.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\bin\Debug\HugsLib.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\bin\Debug\UnityEngine.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\bin\Debug\NAudio.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\bin\Debug\NVorbis.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\bin\Debug\UnityEngine.xml
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\obj\x86\Debug\SS MoreTimeInfo.csprojResolveAssemblyReference.cache
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\obj\x86\Debug\MoreTimeInfo.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\obj\x86\Debug\MoreTimeInfo.pdb
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\bin\Debug\0Harmony.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]MoreTimeInfo\Source\bin\Debug\0Harmony.pdb
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\bin\Debug\MoreTimeInfo.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\bin\Debug\MoreTimeInfo.pdb
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\bin\Debug\0Harmony.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\bin\Debug\Assembly-CSharp.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\bin\Debug\HugsLib.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\bin\Debug\UnityEngine.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\bin\Debug\NAudio.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\bin\Debug\NVorbis.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\bin\Debug\0Harmony.pdb
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\bin\Debug\UnityEngine.xml
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\obj\x86\Debug\SS MoreTimeInfo.csprojResolveAssemblyReference.cache
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\obj\x86\Debug\MoreTimeInfo.dll
+C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\obj\x86\Debug\MoreTimeInfo.pdb
