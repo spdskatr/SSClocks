@@ -26,3 +26,16 @@ C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\
 C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\obj\x86\Debug\SS MoreTimeInfo.csprojResolveAssemblyReference.cache
 C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\obj\x86\Debug\MoreTimeInfo.dll
 C:\Everything\AWESOME CODE STUFF\RimWorld - Dev tool for modders\Mods\[SS]Clock\Source\obj\x86\Debug\MoreTimeInfo.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\bin\Debug\MoreTimeInfo.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\bin\Debug\MoreTimeInfo.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\obj\x86\Debug\SS MoreTimeInfo.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\obj\x86\Debug\MoreTimeInfo.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\bin\Debug\0Harmony.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\bin\Debug\Assembly-CSharp.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\bin\Debug\HugsLib.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\bin\Debug\UnityEngine.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\bin\Debug\NAudio.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\bin\Debug\NVorbis.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\bin\Debug\UnityEngine.xml
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Assemblies\MoreTimeInfo.dll

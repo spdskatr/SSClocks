@@ -11,16 +11,12 @@ namespace MoreTimeInfo
                 return (CompProperties_Clock)props;
             }
         }
-        public int clockAccuracy
+        public int ClockAccuracy
         {
             get
             {
                 return clock.clockAccuracyInt;
             }
-        }
-        public override void PostSpawnSetup()
-        {
-            base.PostSpawnSetup();
         }
         public override void CompTick()
         {

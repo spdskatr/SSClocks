@@ -50,7 +50,7 @@ namespace MoreTimeInfo
             if (fastHourStrings.Count != 24 || minuteString.Count != 60) Reset();
             minute = (int)Math.Floor((decimal)(Find.TickManager.TicksAbs) / 2500 * 60) % 60;
             second = (int)Math.Floor((decimal)(Find.TickManager.TicksAbs) / 2500 * 3600) % 60;
-            index = GenDate.HourInt(Find.TickManager.TicksAbs, x);
+            index = GenDate.HourInteger(Find.TickManager.TicksAbs, x);
             currentMin = (clockAccuracy > 0) ? minuteString[minute] + ":" + minuteString[second] : minuteString[minute] ;
         }
 
@@ -105,7 +105,7 @@ namespace MoreTimeInfo
                                 continue;
                             }
                             buildings.Add(b);
-                            clockaccuracy = Mathf.Max(b.GetComp<CompClock>().clockAccuracy, clockaccuracy);
+                            clockaccuracy = Mathf.Max(b.GetComp<CompClock>().ClockAccuracy, clockaccuracy);
                         }
 
                     }
@@ -145,10 +145,10 @@ namespace MoreTimeInfo
                 }
                 x = Find.WorldGrid.LongLatOf(Find.VisibleMap.Tile).x;
             }
-            int index = GenDate.HourInt(Find.TickManager.TicksAbs, x);
+            int index = GenDate.HourInteger(Find.TickManager.TicksAbs, x);
             DateReadoutAdvanced.index = index;
-            int num = GenDate.DayOfMonth(Find.TickManager.TicksAbs, x);
-            Season season = GenDate.Season(Find.TickManager.TicksAbs, x);
+            int num = GenDate.DayOfSeason(Find.TickManager.TicksAbs, x);
+            Season season = GenDate.Season(Find.TickManager.TicksAbs, Find.WorldGrid.LongLatOf(Find.VisibleMap.Tile));
             int num2 = GenDate.Year(Find.TickManager.TicksAbs, x);
             if (Mouse.IsOver(dateRect))
             {
@@ -164,7 +164,7 @@ namespace MoreTimeInfo
             rect.yMin += 26f;
             if (num != dateStringDay || season != dateStringSeason || num2 != dateStringYear)
             {
-                dateString = GenDate.DateReadoutStringAt(Find.TickManager.TicksAbs, x);
+                dateString = GenDate.DateReadoutStringAt(Find.TickManager.TicksAbs, Find.WorldGrid.LongLatOf(Find.VisibleMap.Tile));
                 dateStringDay = num;
                 dateStringSeason = season;
                 dateStringYear = num2;
