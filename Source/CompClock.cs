@@ -15,13 +15,13 @@ namespace MoreTimeInfo
         {
             get
             {
-                return clock.clockAccuracyInt;
+                return clock.ClockAccuracyInt;
             }
         }
         public override void CompTick()
         {
             base.CompTick();
-            DateReadoutAdvanced.update();
+            DateReadoutAdvanced.Update();
         }
     }
 }

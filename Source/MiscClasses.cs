@@ -11,7 +11,7 @@ namespace MoreTimeInfo
             Atomic
         }
         public ClockAccuracy clockAccuracy = ClockAccuracy.Analog;
-        public int clockAccuracyInt
+        public int ClockAccuracyInt
         {
             get
             {

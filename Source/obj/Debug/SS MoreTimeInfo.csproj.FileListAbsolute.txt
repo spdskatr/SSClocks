@@ -1,0 +1,5 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\bin\Debug\MoreTimeInfo.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\bin\Debug\MoreTimeInfo.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\obj\Debug\SS MoreTimeInfo.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\obj\Debug\MoreTimeInfo.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[SS]Clocks\Source\obj\Debug\MoreTimeInfo.pdb
