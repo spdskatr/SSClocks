@@ -4,7 +4,7 @@ namespace MoreTimeInfo
 {
     public class CompClock : ThingComp
     {
-        public CompProperties_Clock clock
+        public CompProperties_Clock Clock
         {
             get
             {
@@ -15,7 +15,7 @@ namespace MoreTimeInfo
         {
             get
             {
-                return clock.ClockAccuracyInt;
+                return Clock.ClockAccuracyInt;
             }
         }
         public override void CompTick()

@@ -11,7 +11,7 @@ using Verse;
 namespace MoreTimeInfo
 {
     //The messiest class in RimWorld history.
-    [HarmonyPatch (typeof(DateReadout)), HarmonyPatch ("DateOnGUI"), HarmonyPatch (new Type[] { typeof(Rect) })]
+   // [HarmonyPatch (typeof(DateReadout)), HarmonyPatch ("DateOnGUI"), HarmonyPatch (new Type[] { typeof(Rect) })]
     public static class DateReadoutAdvanced
     {
         private static string dateString;
@@ -62,9 +62,6 @@ namespace MoreTimeInfo
         public static void Update()
         {
             if (fastHourStrings.Count != 24 || minuteString.Count != 60) Reset();
-            minute = (int)Math.Floor((decimal)(Find.TickManager.TicksAbs) / 2500 * 60) % 60;
-            second = (int)Math.Floor((decimal)(Find.TickManager.TicksAbs) / 2500 * 3600) % 60;
-            index = GenDate.HourInteger(Find.TickManager.TicksAbs, location.x);
             currentMin = (clockAccuracy > 0) ? minuteString[minute] + ":" + minuteString[second] : minuteString[minute] ;
         }
 
@@ -127,65 +124,6 @@ namespace MoreTimeInfo
             }
             clockAccuracy = clockaccuracy;
             return buildings;
-        }
-
-        public static bool PrefixOld(Rect dateRect)
-        {
-            if (Find.VisibleMap == null || GetClocks(Find.VisibleMap).Count() == 0) return true; //use original method
-            if (clockAccuracy < 0)
-            {
-                Log.Warning("Found clock but clockAccuracy not set. Setting to Analog.");
-                clockAccuracy = 0;
-            }
-            DateRect = dateRect;
-            if (WorldRendererUtility.WorldRenderedNow && Find.WorldSelector.selectedTile >= 0)
-            {
-                x = Find.WorldGrid.LongLatOf(Find.WorldSelector.selectedTile).x;
-            }
-            else if (WorldRendererUtility.WorldRenderedNow && Find.WorldSelector.NumSelectedObjects > 0)
-            {
-                x = Find.WorldGrid.LongLatOf(Find.WorldSelector.FirstSelectedObject.Tile).x;
-            }
-            else
-            {
-                if (Find.VisibleMap == null)
-                {
-                    return false;
-                }
-                x = Find.WorldGrid.LongLatOf(Find.VisibleMap.Tile).x;
-            }
-            int index = GenDate.HourInteger(Find.TickManager.TicksAbs, x);
-            DateReadoutAdvanced.index = index;
-            int num = GenDate.DayOfSeason(Find.TickManager.TicksAbs, x);
-            Season season = GenDate.Season(Find.TickManager.TicksAbs, Find.WorldGrid.LongLatOf(Find.VisibleMap.Tile));
-            int num2 = GenDate.Year(Find.TickManager.TicksAbs, x);
-            if (Mouse.IsOver(dateRect))
-            {
-                Widgets.DrawHighlight(dateRect);
-            }
-            GUI.BeginGroup(dateRect);
-            Text.Font = GameFont.Small;
-            Text.Anchor = TextAnchor.UpperRight;
-            Rect rect = dateRect.AtZero();
-            rect.xMax -= 7f;
-            hrtime = (index < 12) ? "amannotation".Translate(fastHourStrings[index].ToString() + currentMin) : "pmannotation".Translate(fastHourStrings[index].ToString() + currentMin);
-            Widgets.Label(rect, hrtime);
-            rect.yMin += 26f;
-            if (num != dateStringDay || season != dateStringSeason || num2 != dateStringYear)
-            {
-                dateString = GenDate.DateReadoutStringAt(Find.TickManager.TicksAbs, Find.WorldGrid.LongLatOf(Find.VisibleMap.Tile));
-                dateStringDay = num;
-                dateStringSeason = season;
-                dateStringYear = num2;
-            }
-            Widgets.Label(rect, dateString);
-            Text.Anchor = TextAnchor.UpperLeft;
-            GUI.EndGroup();
-            StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.AppendLine("DateReadoutTip".Translate(GenDate.DaysPassed, 15, season.Label(), GenDate.Quadrum(Find.TickManager.TicksAbs, Find.WorldGrid.LongLatOf(Find.VisibleMap.Tile).y)));
-            if(clockAccuracy > 0)stringBuilder.AppendLine("TicksAbsOnGUI".Translate(Find.TickManager.TicksGame));
-            TooltipHandler.TipRegion(dateRect, new TipSignal(() => stringBuilder.ToString(), 86423));
-            return false; //Original method disabled
         }
 
 
