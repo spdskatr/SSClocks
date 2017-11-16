@@ -80,7 +80,6 @@
     <Compile Include="ClocksPatcher.cs" />
     <Compile Include="CompClock.cs" />
     <Compile Include="MiscClasses.cs" />
-    <Compile Include="DateReadout.cs" />
     <Compile Include="DetourProvider.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />

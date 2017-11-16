@@ -34,7 +34,6 @@ namespace MoreTimeInfo
             {
                 if (lastUpdateTick < 0 || lastUpdateTick < (Find.TickManager.TicksAbs - 60))
                 {
-                    Log.Message("Boop");
                     UpdateAcccuracyCache();
                 }
                 return accuracyCache;

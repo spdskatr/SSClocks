@@ -18,10 +18,5 @@ namespace MoreTimeInfo
                 return Clock.ClockAccuracyInt;
             }
         }
-        public override void CompTick()
-        {
-            base.CompTick();
-            DateReadoutAdvanced.Update();
-        }
     }
 }
